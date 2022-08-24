@@ -1,0 +1,13 @@
+#sticky{position:sticky;
+    top:0;
+}
+.marco{background-color: lightblue;}
+.bloque{
+background-color: burlywood;
+width: 16.6vw;
+height:5vw;
+border: 3px solid red; 
+text-align: center;
+font-size: 3vw;
+font-family: 'Times New Roman', Times, serif;
+display: inline; }

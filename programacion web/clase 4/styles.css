@@ -1,0 +1,26 @@
+/* etiqueta{propiedad:valor;} */
+/* llamar una clase */
+.titular{color:grey;
+font-size: 50px;}
+/* llamar a etiqueta director */
+body{background-color: green;}
+/* llamar un id */
+#titular3{color:aqua;}
+/* 
+ */
+ .borde{border: 2px solid yellow;}
+ .rojo{color:red;}
+/* color hexadecimal: #000000
+00 rojo
+00 verde
+00 azul
+va desde 0 al 9 y despues de a hasta f
+00 siendo menos intenso y  ff siendo el +*/
+#relativa{position:relative;
+top:100px;}
+#fixed{position:fixed;
+bottom:10px;
+right:10px}
+/* uso vw como medida de porcentaje de la pantalla que se usa (viewport)*/
+#cabeza{position:sticky; top:0 ;}
+.head{background-color:white;}
