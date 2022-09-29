@@ -14,7 +14,7 @@ display: inline; }
 li{
     position:sticky;
     top:0;
-    display:inline;
+    display:inline-grid;
     margin-left: 5vw;
     text-align: center;
     font-size: 3vw;
