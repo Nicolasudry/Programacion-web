@@ -1,26 +1,44 @@
-#sticky{position:sticky;
-    top:0;
+.header{
+    position:fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
 }
-.marco{background-color: lightblue;}
-.bloque{
-background-color: burlywood;
-width: 16.6vw;
-height:5vw;
-border: 3px solid red; 
-text-align: center;
-font-size: 3vw;
-font-family: 'Times New Roman', Times, serif;
-display: inline; }
-li{
-    position:sticky;
-    top:0;
-    display:inline-grid;
-    margin-left: 5vw;
+.flexcontainer{
+    /* position:fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%; */
+    display:flex;
+    background-color: gray;
+    justify-content: space-between;
+    align-items: center;
+    display:flex;
+}
+.flexcontainer > div{
+    margin: 3vw;
     text-align: center;
+    color: azure;
     font-size: 3vw;
     font-family: 'Times New Roman', Times, serif;
-
+    background-color: grey;
+    float: left;
+    list-style: none;
+    overflow: hidden;
+}
+.flexcontainer > div > a{
+    color:greenyellow;
+    text-decoration: none;
+}
+.flexcontainer > div > a:hover{
+    background-color: whitesmoke;
 }
 ul{
     background-color: rosybrown;
+}
+h1{
+    background-color: black;
+    font-size: 10vw;
+    color: white;
+    width: 100%;
 }
