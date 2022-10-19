@@ -3,25 +3,23 @@
     width: 100%;
     top: 0%;
     left: 0%;
+    ;
 }
 .flexcontainer{
-    /* position:fixed;
-    width: 100%;
-    top: 0%;
-    left: 0%; */
+   
     display:flex;
-    background-color: gray;
+    background-color: black;
     justify-content: space-between;
     align-items: center;
     display:flex;
 }
 .flexcontainer > div{
-    margin: 3vw;
+    margin: 0;
     text-align: center;
     color: azure;
     font-size: 3vw;
     font-family: 'Times New Roman', Times, serif;
-    background-color: grey;
+    background-color: black;
     float: left;
     list-style: none;
     overflow: hidden;
