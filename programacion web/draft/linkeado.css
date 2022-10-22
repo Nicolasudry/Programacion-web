@@ -7,9 +7,7 @@ header {
     left: 0%;
   }
   
-  nav {
-    float: left;
-  }
+ 
   
   nav ul {
     list-style: none;
@@ -33,3 +31,9 @@ header {
   nav ul li:hover {
     background: white;
   }
+.titulo {margin-top:5vw;
+  margin-bottom: 3vw;
+  background-color: aliceblue;
+font-size: 3vw;}
+.pie{background-color: aliceblue;
+font-size: 2vw;}
